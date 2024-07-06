@@ -1,0 +1,119 @@
+*{
+  font-family: "Poppins";
+}
+
+:root {
+  --bg-color: #ccc;
+  --sv-color: #061327;
+}
+
+body {
+  background: var(--bg-color) !important;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("carousel-2.jpg");
+  background-repeat: no-repeat;
+  background-position: 60% 0%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.nav-link{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p{
+  font-size: 20px;
+  color: #fff;
+}
+
+.modal-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.SL{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: #000;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  filter: drop-shadow(1px 1px 10px black);
+}
+
+.us:hover{
+  text-decoration: underline;
+}
+
+i{
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+}
+
+#services{
+  background-color: var(--sv-color);
+}
+
+#contact {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("contactus.jpg");
+}
+
+footer .social-icons a {
+  width: 30px;
+  height: 30px;
+}
+
+.card{
+  filter: drop-shadow(1px 1px 10px black);
+}
+
+.gender-selection{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form-check-inline{
+  margin-right: 10px;
+}
+
+.input-control input:focus{
+  outline: 0;
+}
+
+.input-control.success input{
+  border-color: #09c372;
+}
+
+.input-control.error input{
+  border-color: #ff3860;
+}
+
+.input-control .error{
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
